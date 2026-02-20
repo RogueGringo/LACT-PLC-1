@@ -1,11 +1,44 @@
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
 *.egg-info/
+*.egg
 dist/
 build/
-*.egg
-.pytest_cache/
-config/setpoints.json
-*.log
+
+# Virtual environments
 .venv/
 venv/
+env/
+
+# Testing / Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Runtime config
+config/setpoints.json
+*.log
+
+# Binary assets — keep these out of source control
+*.HEIC
+*.heic
+*.PNG
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.PDF
+
+# OS
+.DS_Store
+Thumbs.db
