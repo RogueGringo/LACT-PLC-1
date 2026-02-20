@@ -1,0 +1,9 @@
+# LACT PLC Control System - Dependencies
+#
+# Core (no external dependencies required for simulator mode)
+# Install these only if using real Modbus hardware:
+# pymodbus>=3.6
+
+# Development / Testing
+pytest>=7.0
+pytest-cov>=4.0
